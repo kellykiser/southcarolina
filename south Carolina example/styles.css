@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.home-bg {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+}
+body.food-bg {
+    background-image: url("images/foodbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+}
+body.beaches-bg {
+    background-image: url("images/beachbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+}
+
+.nav {
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+}
+
+nav #nav {
+	background-color:#7F000000;
+	color:white;
+	text-align:center;
+	font-size:large;
+	}
+h1 {
+	font-size:84px;
+	color:white;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+p{
+	font-size:18px;
+	color:white;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align:center;
+	padding-left:240px;
+	padding-right:240px;
+}
+
+a {
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+nav a{
+	text-decoration:none;
+	font-size:25px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+footer p{
+    font-size: 10px;
+    text-align:center;
+    color: white;
+    margin-rigt:auto;
+	margin-left:auto;
+	bottom:0px;}
+
+.home-bg {
+}
