@@ -9,6 +9,15 @@ body.home-bg {
 	text-align:center;
 	background-color:black;
 }
+body.parks-bg {
+    background-image: url(images/parksbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+	
+}
 body.food-bg {
     background-image: url("images/foodbackground.png");
     background-size: cover;
@@ -31,17 +40,26 @@ body.beaches-bg {
 	margin-right:auto;
 	width:1024px;
 }
+.parks {background-color:black;
+	padding: 20px;
+  width:700px;
+  border: 10px solid white;
+  margin:auto;
+  margin-bottom:30px;
+		}
 
 nav #nav {
-	background-color:#7F000000;
 	color:white;
 	text-align:center;
 	font-size:large;
 	}
+
+
 h1 {
 	font-size:84px;
 	color:white;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
 }
 p{
 	font-size:18px;
@@ -56,6 +74,9 @@ a {
 	color:white;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
+.parks-nav {color:black;
+			font-size:30px;
+			}
 nav a{
 	text-decoration:none;
 	font-size:25px;
@@ -72,5 +93,6 @@ footer p{
 	margin-left:auto;
 	bottom:0px;}
 
-.home-bg {
+.parks-heading {
+	color:black;
 }
