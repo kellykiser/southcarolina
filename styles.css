@@ -47,6 +47,13 @@ body.beaches-bg {
   margin:auto;
   margin-bottom:30px;
 		}
+.beaches {background-color:grey;
+	padding: 20px;
+  width:700px;
+  border: 10px solid white;
+  margin:auto;
+  margin-bottom:30px;
+		}
 
 nav #nav {
 	color:white;
