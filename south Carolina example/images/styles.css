@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+body.home-bg {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+}
+body.parks-bg {
+    background-image: url(images/parksbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+	
+}
+body.food-bg {
+    background-image: url("images/foodbackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+}
+body.beaches-bg {
+    background-image: url("images/beachbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+	text-align:center;
+	background-color:black;
+}
+
+.nav {
+	margin-left:auto;
+	margin-right:auto;
+	width:1024px;
+}
+.parks {background-color:black;
+	padding: 20px;
+  width:700px;
+  border: 10px solid white;
+  margin:auto;
+  margin-bottom:30px;
+		}
+.beaches {background-color:grey;
+	padding: 20px;
+  width:700px;
+  border: 10px solid white;
+  margin:auto;
+  margin-bottom:30px;
+		}
+
+nav #nav {
+	color:white;
+	text-align:center;
+	font-size:large;
+	}
+
+
+h1 {
+	font-size:84px;
+	color:white;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+p{
+	font-size:18px;
+	color:white;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align:center;
+	padding-left:240px;
+	padding-right:240px;
+}
+
+a {
+	color:white;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.parks-nav {color:black;
+			font-size:30px;
+			}
+nav a{
+	text-decoration:none;
+	font-size:25px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+
+footer p{
+    font-size: 10px;
+    text-align:center;
+    color: white;
+    margin-rigt:auto;
+	margin-left:auto;
+	bottom:0px;}
+
+.parks-heading {
+	color:black;
+}
